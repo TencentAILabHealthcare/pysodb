@@ -12,7 +12,7 @@ conda activate pysodb
 ```
 git clone https://github.com/TencentAILabHealthcare/pysodb.git
 ```
-2. Install pysodb as a dependency or third-party package with pip:
+3. Install pysodb as a dependency or third-party package with pip:
 ```
 cd pysodb
 python setup.py install
@@ -32,3 +32,4 @@ data = sodb.load_experiment("yuan2021seam", "NCTC1469withIdU_Hepa1-6_pixel") # L
 
 dataset = sodb.load_dataset("yuan2021seam") # Load a specific dataset
 ```
+Please refer to [📘Documentation and Tutorials](https://pysodb.readthedocs.io/en/latest/) for more details.
