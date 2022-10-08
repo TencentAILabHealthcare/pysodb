@@ -28,8 +28,8 @@ dataset_list = sodb.list_dataset() # Get the list of datasets
 
 dataset_list = sodb.list_dataset_by_category() # Get the list of datasets with specific category. categories ["Spatial Transcriptomics", "Spatial Proteomics", "Spatial Metabolomics", "Spatial Genomics", "Spatial MultiOmics"]
 
-data = sodb.load_experiment("yuan2021seam", "NCTC1469withIdU_Hepa1-6_pixel") # Load a specific experiment 
+adata = sodb.load_experiment('hunter2021spatially','sample_B') # Load a specific experiment 
 
-dataset = sodb.load_dataset("yuan2021seam") # Load a specific dataset
+adataset = sodb.load_dataset('hunter2021spatially') # Load a specific dataset
 ```
 Please refer to [📘Documentation and Tutorials](https://pysodb.readthedocs.io/en/latest/) for more details.
