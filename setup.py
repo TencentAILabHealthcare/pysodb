@@ -17,7 +17,7 @@ setuptools.setup(
     install_requires = [
     'scanpy>=1.9.1',
     'pandas>=1.5.0',
-    'numpy>=1.23.3',
+    'numpy==1.22.4',
     'requests>=2.28.1',
     'urllib3>=1.26.12',
     'tqdm>=4.64.1'
