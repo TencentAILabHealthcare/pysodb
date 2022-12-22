@@ -161,7 +161,7 @@ class SODB:
             print("download experiment[{}] in dataset[{}]".format(experiment_name, dataset_name))
             download_url_to_file(self.server_address + "/download/{}/{}".format(dataset_name, experiment_name), tmp_storage_path)
         try:
-            print("load experiment[{}] in dataset[{}] from /home/yzy/anaconda3/envs/SODB/lib/python3.9/site-packages/pysodb-1.0.0-py3.9.egg/{}".format(experiment_name, dataset_name, tmp_storage_path[len("/apdcephfs/private_wentaopan/spatial_omics_api/pysodb_package/"):]))
+            print("load experiment[{}] in dataset[{}]".format(experiment_name, dataset_name))
             data = sc.read_h5ad(tmp_storage_path)
         except: 
             print("False to load experiment[{}] in dataset[{}], please try again later.".format(experiment_name, dataset_name))
