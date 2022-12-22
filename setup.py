@@ -20,6 +20,7 @@ setuptools.setup(
     'numpy==1.22.4',
     'requests>=2.28.1',
     'urllib3>=1.26.12',
-    'tqdm>=4.64.1'
+    'tqdm>=4.64.1',
+    'anndata==0.8.0'
     ] 
 )
