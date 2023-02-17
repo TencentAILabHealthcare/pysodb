@@ -33,3 +33,10 @@ adata = sodb.load_experiment('hunter2021spatially','sample_B') # Load a specific
 adataset = sodb.load_dataset('hunter2021spatially') # Load a specific dataset
 ```
 Please refer to [📘Documentation and Tutorials](https://pysodb.readthedocs.io/en/latest/) for more details.
+
+## Cite
+<br>
+Yuan, Z., Pan, W., Zhao, X. et al. SODB facilitates comprehensive exploration of spatial omics data. Nat Methods (2023). https://doi.org/10.1038/s41592-023-01773-7
+
+<br>
+Spatial Omics DataBase (SODB): increasing accessibility to spatial omics data. Nat Methods (2023). https://doi.org/10.1038/s41592-023-01772-8
