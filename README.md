@@ -6,6 +6,7 @@ pysodb is a python package that provides the interface to access the data in [SO
 1. Clone the source code.
 ```
 git clone https://github.com/TencentAILabHealthcare/pysodb.git
+cd pysodb
 ```
 2. Create a conda environment and activate it.
 ```
@@ -14,7 +15,6 @@ conda activate pysodb
 ```
 3. Install pysodb as a dependency or third-party package with pip:
 ```
-cd pysodb
 pip install .
 ```
 
