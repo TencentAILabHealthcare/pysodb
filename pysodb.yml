@@ -1,4 +1,4 @@
-name: pysodb_env
+name: pysodb
 channels:
   - conda-forge
   - vtraag
