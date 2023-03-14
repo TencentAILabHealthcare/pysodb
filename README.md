@@ -3,19 +3,19 @@
 pysodb is a python package that provides the interface to access the data in [SODB](https://gene.ai.tencent.com/SpatialOmics/).
 
 ## Installation
-1. Create a conda environment and activate it.
-```
-conda create --name pysodb python=3.8 -y
-conda activate pysodb
-```
-2. Clone the source code.
+1. Clone the source code.
 ```
 git clone https://github.com/TencentAILabHealthcare/pysodb.git
+cd pysodb
+```
+2. Create a conda environment and activate it.
+```
+conda env create -n pysodb --file pysodb.yml
+conda activate pysodb
 ```
 3. Install pysodb as a dependency or third-party package with pip:
 ```
-cd pysodb
-python setup.py install
+pip install .
 ```
 
 ## Usage
