@@ -15,12 +15,12 @@ setuptools.setup(
     ],
     python_requires='>=3.8',
     install_requires = [
-    'scanpy>=1.9.1',
-    'pandas>=1.5.0',
-    'numpy==1.22.4',
-    'requests>=2.28.1',
+    'scanpy',
+    'pandas',
+    'numpy',
+    'requests',
     'urllib3>=1.26.12',
-    'tqdm>=4.64.1',
-    'anndata==0.8.0'
+    'tqdm',
+    'anndata'
     ] 
 )
