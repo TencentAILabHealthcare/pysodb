@@ -82,6 +82,8 @@ class SODB:
         self.server_address = server_address
         if storage_path is None:
             self.storage_path = self.__get_cache_path()
+        else:
+            self.storage_path = storage_path
         self.data = None
         self.__get_info()
     
